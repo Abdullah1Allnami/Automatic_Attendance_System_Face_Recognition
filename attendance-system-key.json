@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "attendance-system-4df6d",
+  "private_key_id": "6b63cfa58a22f0b50f5f239a5db3a82e2718bc05",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDN6zz6hFE/ZWcw\nWVVHk9nShTlJWraM07pZG+z7Xh9JOTaQgdqUfdpSmyW7JhoKJYZw8/N49wM1hj3J\nWddno8Cct+ZOdF8lRDnN6y7DqSzrIzZsvyvftLtajPeZn0D0yayrEl1UZwRhKGLo\nxdVNZiX2GkfFD6cnXS6exPXcIBpBdI6L09/MTQCls5ih6x6oK/tmtdhywVgr6Spa\neh9SaRHr0lxhpBmGe8t5Y9cYeOSgVJgQcBpEqYao3qNIRGsew1c0O/JGaeVLhg2J\ncPI4jMdzovPNxmbSGueOjIo3xIhzYtNOXfIvkghL6UIagN0H5aXs7vpOddCTR7pz\nMyHXJBZ1AgMBAAECggEAOnBDKvl4MVyuzzrbB+g+zg7+9gFng0nnPbi+JYxNprM0\n+AfSJ4gb+IuNRrKGe1Cw+cdR1oeLgpopWMZFamU/mXpbQvKluebF3NmcuOx/EfA5\nVt1eLyuUbBtLfW6DubSuaxJYKEbgKE6U22iho0iVB2Xn7lYF4xb/zxEokSMPMHnI\nRqiPTWw0NbNyitLtx+z7DWsRAZxVUv5hqELLCzzsSaa4gcvf5aRt6SlXakiuQHCS\nfur49oLrA6BBTxo5Y+RzgIsuTrBujpldK7SyAH9XNyyVFC+i8kRbbFSCZHvYFxzA\nkS8GqBo1aW6pgbCUi95tlbxoODX/3y49pfvjpSsXVQKBgQDsZdiACj1dvJ7dhM6r\nLZt+PVhdW7dP7wfQbLj0/bJkseBj+fCZyi8Nuyhv2WsZjK0oqwrqnUQZvgq73uBK\n1DlpE7FM+dXMq5wEYTSBmhA3a291NePxeaDwpDvzy66h+PNV6DeC8xbyvCvQrO/W\nu0Vau/UtqmnREBworgp3eAth9wKBgQDe/mX9766vwPaOdX+LfEnIWY1Kr5G05CWL\nOSKAXtEjUKt0ShNNSF+TpOOC1bqi8FLlfGqR0DjusTiP8vv6xLY7TY4IoxOCALgB\nknhKZK+htkCDDltY7IUQDZDXtLA3ZgL6Oi3ejyZ7hIjyhHSEB2gMCftiA9QrYFhj\nUB1XuwRv8wKBgQC2Zz9OTJhdI5VRR5BP9LjuB1ePcZ1YSA+3eqycHMTxfW6utcQ4\nZhE4fxkMdK524F0b7B5YOVC6rDCMFcTq+CX0NgWwZ3XYnvGbT4W8Gqw4luVBg3uG\nb1sHUzIPQzJUOEtKFgv/NqKWWStVsJq/DXDOOglMWxma/ts7aE8bL71YsQKBgQCZ\nYlWXaQE4hTtS3EFiGZjKxcZpRACuc2vbqu4vbIjgiMGWmMlUFF8huH6B5S+emj36\n+ix3pckzbhVg9psab6qFeiAjksB9YK8w7aXuTfl8+1a+juaIcRBJ7Xre1LuNL48G\nvXQFrWOj/JMSdceLdWi9NzSBw+5x87B4h4fXa51uvwKBgA08j0zkv2A7QAO89eHX\n2GaZlcZendVtx4By/Sol0bfFzdH7C9Edcte714gTBD9crfhLHZZ5fdMqyi+AEHti\nGYWrfZaE+y/gJaSjDQWanilAGL5C5UobNTS/uj4pbE0xqRfziH3kxryLwoZ4BHDr\n/wHuhIPtdJYsbv19T05GRHv8\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-kjxr0@attendance-system-4df6d.iam.gserviceaccount.com",
+  "client_id": "118199220879759148989",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-kjxr0%40attendance-system-4df6d.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
