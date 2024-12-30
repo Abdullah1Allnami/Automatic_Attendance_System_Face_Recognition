@@ -12,7 +12,7 @@ if __name__ == '__main__':
 
     # Load Encoding file
     print('Loading Encoded file ...')
-    file = open('encodeFile.p', 'rb')
+    file = open('encodeFile2.p', 'rb')
     encodeListKnownWithIds = pickle.load(file)
     file.close()
     print('Encode File Loaded')
@@ -53,6 +53,7 @@ if __name__ == '__main__':
                     bbox = 55 + x1, 162 + y1, x2 - x1, y2 - y1
                     imgBackground = cvzone.cornerRect(imgBackground, bbox, rt=0)
 
+                print(studentIds[matchIndex])
             cv2.imshow("Back ground image", imgBackground)
 
             if cv2.waitKey(1) == 27:
