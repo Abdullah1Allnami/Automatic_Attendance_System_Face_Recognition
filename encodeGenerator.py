@@ -3,10 +3,11 @@ import face_recognition
 import pickle
 import os
 
+
 # importing the database images
 folderImagesPath = 'Resources/images'
 imgList = []
-studentIds = []
+studentsNames = []
 
 for path in os.listdir(folderImagesPath):
     fullPath = os.path.join(folderImagesPath, path)
@@ -15,7 +16,7 @@ for path in os.listdir(folderImagesPath):
         print(f"Failed to load image: {fullPath}")
         continue
     imgList.append(img)
-    studentIds.append(os.path.splitext(path)[0])
+    studentsNames.append(os.path.splitext(path)[0])
 
 
 # to encode all the database images
@@ -36,10 +37,10 @@ def getEncoding(imagesList):
 
 print("Encoding Started ...")
 encodeListKnown = getEncoding(imgList)
-encodeListKnown = [encodeListKnown, studentIds]  # add the Ids
+encodeListKnown = [encodeListKnown, studentsNames]  # add the Ids
 print("Encoding Complete")
 
 # Save to file
-with open('encodeFile.p', 'wb') as file:
+with open('encodeFile2.p', 'wb') as file:
     pickle.dump(encodeListKnown, file)
 print('File Saved')
