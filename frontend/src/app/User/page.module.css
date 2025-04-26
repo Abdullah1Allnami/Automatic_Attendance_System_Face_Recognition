@@ -1,0 +1,57 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+.main {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxContainer {
+    width: 80%;
+    height: 80%;
+    background-color: rgb(211, 211, 211);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.boxContainer h1 {
+    margin: 1.5rem;
+}
+
+.userPicture {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+.userPictureButton {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.button {
+    width: 152px;
+    height: 40px;
+    background-color: rgb(102, 171, 216);
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.2s;
+    justify-self: center;
+}
+
+
+.button:hover {
+    background-color: rgb(41, 128, 185);
+    transform: scale(1.01);
+}

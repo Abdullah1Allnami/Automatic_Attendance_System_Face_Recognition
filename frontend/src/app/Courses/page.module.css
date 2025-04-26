@@ -1,0 +1,96 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+    background-color: #f8f9fa;
+}
+
+.main {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.box {
+    width: 448px;
+    height: 166px;
+    display: grid;
+    grid-template-areas:
+        'img ui ui'
+        'img ui ui'
+        'bt bt bt';
+    grid-template-columns: 100px repeat(2, 1fr);
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 10px;
+    border: 1px solid rgb(220, 220, 220);
+    background-color: #ffffff;
+    padding: 10px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.box:hover {
+    transform: scale(1.03);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 6px 12px;
+}
+
+.box button {
+    grid-area: bt;
+    width: 170px;
+    height: 40px;
+    background-color: rgb(102, 171, 216);
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.2s;
+    justify-self: center;
+}
+
+.box button:hover {
+    background-color: rgb(41, 128, 185);
+    transform: scale(1.05);
+}
+
+.image {
+    grid-area: img;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: rgb(242, 242, 242);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    color: black;
+}
+
+.userInfo {
+    grid-area: ui;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    gap: 5px;
+}
+
+.userName {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.userInfo p,
+.userName {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 180px;
+}

@@ -1,0 +1,79 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+.main {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+
+.mainImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(206, 225, 242);
+    border-radius: 18px;
+}
+
+.informationInputContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.informationInputContainer h1 {
+    font-size: 48px;
+    margin-bottom: 3rem;
+}
+
+.informationInputContainer label {
+    font-size: 1.2rem;
+}
+
+.informationInputContainer input {
+    width: 480px;
+    height: 60px;
+    background-color: white;
+    border-radius: 18px;
+    box-shadow: rgba(0, 0, 0, .08) 0px 0px 0px;
+    opacity: 1;
+    border: 1px solid rgb(199, 199, 199);
+    margin: 1rem;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.informationInputContainer button {
+    width: 480px;
+    height: 60px;
+    font-size: 1.2rem;
+    background-color: rgb(102, 171, 216);
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.2s;
+    justify-self: center;
+}
+
+
+.informationInputContainer button:hover {
+    background-color: rgb(41, 128, 185);
+    transform: scale(1.02);
+}
+
+
+.informationInputContainer span {
+    color: rgb(112, 171, 223);
+}
+
+.link {
+    margin: 1rem;
+}

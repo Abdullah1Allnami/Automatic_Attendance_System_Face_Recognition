@@ -1,0 +1,31 @@
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(226, 226, 226);
+    height: 64px;
+}
+
+.nav ul {
+    display: flex;
+    margin-right: .5rem;
+    width: 100%;
+    padding: 1rem;
+    justify-content: flex-end;
+}
+
+.nav ul li a {
+    padding: .5rem;
+}
+
+.nav .logo p {
+    width: 220px;
+    height: auto;
+    padding: 1rem;
+    display: inline-block;
+}
+
+.nav .icon {
+    padding: 1rem;
+}
