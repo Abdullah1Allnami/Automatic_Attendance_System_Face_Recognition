@@ -75,6 +75,13 @@ cd ../backend
 npm install
 ```
 
+- **Electron:**
+
+```bash
+cd ../electron
+npm install
+```
+
 - **Main App:**
 
 ```bash
@@ -99,24 +106,10 @@ NEXT_PUBLIC_API_URL=http://localhost:5000
 
 ### 4. Run Development Servers
 
-- **Backend:**
-
-```bash
-cd backend
-npm run dev
-```
-
-- **Frontend:**
-
-```bash
-cd frontend
-npm run dev
-```
-
 - **Electron App:**
 
 ```bash
-npm run electron-dev
+npm start
 ```
 
 ---
@@ -157,4 +150,3 @@ Pull requests are welcome! For major changes, please open an issue first to disc
 ## 🌟 Support
 
 If you like this project, give it a ⭐ on GitHub!
-
