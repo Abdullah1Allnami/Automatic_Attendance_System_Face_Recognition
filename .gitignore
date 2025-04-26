@@ -32,5 +32,9 @@ Thumbs.db
 # Others
 coverage/
 *.pem
-# Backend public files
+
+# Ignore contents of public folder
 backend/public/*
+# Track the public folder itself
+!backend/public/
+
