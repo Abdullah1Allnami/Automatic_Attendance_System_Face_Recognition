@@ -96,12 +96,8 @@ npm install
 ```bash
 MONGO_URI=your_mongodb_connection_string
 PORT=5000
-```
-
-- **Frontend (`frontend/.env.local`):**
-
-```bash
-NEXT_PUBLIC_API_URL=http://localhost:5000
+NODE_ENV=development
+DATA_BASE_PASSWARD=your_database_password
 ```
 
 ### 4. Run Development Servers
