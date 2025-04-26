@@ -32,3 +32,5 @@ Thumbs.db
 # Others
 coverage/
 *.pem
+# Backend public files
+backend/public/*
