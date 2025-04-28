@@ -1,4 +1,4 @@
-# Automatic Attendance System (Face Recognition)
+# Automatic Attendance System (With Face Recognition)
 
 An automatic attendance system powered by **Face Recognition**, built with:
 
